@@ -1,87 +1,32 @@
-# AniHub — Screen List & Navigation
+# AniHub Pages (Web)
 
-## Screen Flow Overview
-Splash → Auth → Home → Explore → Anime Detail → Tracker → Community → Profile
+## 1. Authentication Pages
+- Login
+- Register
 
----
+## 2. Home Page
+- Personalized recommendations
+- Quick links to tracker & explore
 
-## 1. Splash Screen
-- App logo
-- Loading indicator
-- Redirect to Login or Home
-
----
-
-## 2. Authentication Screens
-### Login
-- Email
-- Password
-- Login button
-
-### Register
-- Email
-- Password
-- Username
-- Favorite genres selection
-
----
-
-## 3. Home Screen
-- Recommended anime list
-- Based on genre rules
-- Fallback: popular anime
-
----
-
-## 4. Explore Screen
-- Search bar
+## 3. Anime Index Page
+- Search
 - Genre filters
-- Anime grid/list
+- Anime list
 
----
+## 4. Anime Detail Page
+- Anime information
+- Where to watch
+- Add to tracker
 
-## 5. Anime Detail Screen
-- Anime image
-- Title & synopsis
-- Genres
-- Tracker buttons:
-  - Watching
-  - Completed
-  - On-Hold
-- Legal platforms list
+## 5. Tracker Page
+- Watching / Completed / On-Hold
+- Anime index access
 
----
+## 6. Community Page
+- Posts
+- Debate topics
+- Agree / Disagree votes
 
-## 6. Tracker Screen
-- Lists:
-  - Watching
-  - Completed
-  - On-Hold
-- Update status
-
----
-
-## 7. Community Feed
-- List of posts
-- Post types:
-  - Review
-  - Recommendation
-  - Meme
-  - Debate
-- Like / Agree / Disagree buttons
-
----
-
-## 8. Create Post Screen
-- Text input
-- Optional image upload
-- Post type selection
-
----
-
-## 9. Profile Screen
-- Avatar
-- Username
-- Favorite genres
-- Tracked anime count
-- Logout button
+## 7. Profile Page
+- User info
+- Preferences

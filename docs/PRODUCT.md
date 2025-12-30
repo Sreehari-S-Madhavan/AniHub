@@ -1,94 +1,46 @@
-# AniHub — Product Definition
+# AniHub (Web)
 
-## Overview
-AniHub is an anime companion platform designed to help users discover, track, and discuss anime, manga, and light novels in one place.
+AniHub is a responsive web platform built by beginners to help users
+discover, track, and discuss anime, manga, and light novels — all in one place.
 
-AniHub is NOT a streaming platform.
-It does not host or distribute copyrighted content.
-The platform focuses on discovery, organization, community interaction, and guidance toward legal viewing platforms.
+## Problem
+Anime fans use multiple websites to:
+- Discover new anime
+- Track progress
+- Find legal streaming platforms
+- Share opinions
 
-## Problem Statement
-Anime fans currently use multiple apps and websites to:
-- Track what they are watching or reading
-- Discover new anime or manga
-- Find legal platforms to watch content
-- Share opinions, reviews, and debates
+There is no single, simple, beginner-friendly web platform combining all of these.
 
-AniHub solves this by combining these needs into a single, simple companion app.
+## Solution
+AniHub provides:
+- Anime discovery via public APIs
+- Personal tracking system
+- Genre-based recommendations
+- Legal "Where to Watch" guides
+- Community discussions and debates
 
 ## Target Users
-- College students
-- Beginner anime/manga/light novel fans
-- Community-driven anime enthusiasts
+- Students
+- Beginner anime fans
+- Anime communities
 
-## Core Goals (MVP)
-- Simple and usable
-- Beginner-friendly implementation
-- Real-world deployable
+## Core Principles
+- Web-first
 - No piracy
-- Minimal to no AI usage
+- No AI dependency
+- Beginner-friendly
+- Learn-by-building
 
-## MVP Features (Locked Scope)
+## MVP Scope
+- Authentication
+- Anime index with search & filters
+- Tracker system
+- Genre-based recommendations
+- Community feed with debates
+- Legal watch guides
 
-### 1. User Authentication & Profile
-- Email/password login
-- Basic profile:
-  - Username
-  - Avatar
-  - Favorite genres
-
-### 2. Anime / Manga Index
-- List of anime with:
-  - Title
-  - Synopsis
-  - Genres
-  - Image
-- Search by title
-- Filter by genre
-
-### 3. Personal Tracker
-- Users can track anime as:
-  - Watching
-  - Completed
-  - On-Hold
-- Tracker stored per user
-
-### 4. Rule-Based Recommendations
-- Based on:
-  - User favorite genres
-  - Previously tracked anime
-- No machine learning or AI
-
-### 5. Where to Watch (Legal)
-- Show legal platforms (Netflix, Crunchyroll, etc.)
-- External links only
-
-### 6. Community Feed
-- Text and image posts
-- Anime-related content only
-- No private messaging
-
-### 7. Structured Debate System
-- Posts support:
-  - Agree
-  - Disagree
-- Simple vote counting
-- No comments in MVP
-
-## Non-Goals (Out of Scope)
-- Video streaming
-- Pirated content
-- AI-based recommendations
-- Real-time chat
-- Notifications
-- Follow system
-- Admin/moderation tools
-
-## Tech Stack
-- Frontend: Flutter
-- Backend: Firebase (Auth, Firestore, Storage)
-
-## Success Criteria
-- User can sign up, explore anime, track progress, and participate in community debates
-- App runs without crashes
-- Clear structure for future expansion
+## What AniHub Is NOT
+- Not a streaming website
+- Not a chat application
+- Not an AI-powered platform
